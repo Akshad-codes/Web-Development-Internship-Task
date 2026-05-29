@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the mission and impact model of She Can Foundation.">
+  <title>Impact | She Can Foundation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="subpage-body">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="She Can Foundation home">
+      <span class="brand-mark">SC</span>
+      <span>She Can Foundation</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html#home">Home</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#programs">Programs</a>
+      <a href="about.html" aria-current="page">Impact Page</a>
+      <button class="nav-cta open-join" type="button">Join Us</button>
+    </nav>
+  </header>
+
+  <main class="subpage">
+    <section class="page-hero">
+      <p class="eyebrow">Impact model</p>
+      <h1>Opportunity becomes powerful when it is practical.</h1>
+      <p>She Can Foundation combines skill training, flexible work pathways, health awareness, and mentorship so women can keep growing even when time, money, and access are limited.</p>
+    </section>
+
+    <section class="section values-section">
+      <div class="section-heading">
+        <div>
+          <div class="section-kicker">Core values</div>
+          <h2>Designed with dignity at the center.</h2>
+        </div>
+        <p>The foundation's work is built to respect each woman's context while expanding what is possible for her future.</p>
+      </div>
+      <div class="values-grid">
+        <article class="value-card reveal">
+          <h3>Access</h3>
+          <p>Learning opportunities are flexible and reachable for women balancing family, study, work, or financial pressure.</p>
+        </article>
+        <article class="value-card reveal">
+          <h3>Confidence</h3>
+          <p>Training is practical, encouraging, and built around visible progress so women can believe in their next step.</p>
+        </article>
+        <article class="value-card reveal">
+          <h3>Livelihood</h3>
+          <p>Programs connect skills with internships, work-from-home roles, and career guidance that can lead to income.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section timeline-section">
+      <div class="section-kicker">How support grows</div>
+      <h2>A simple model with lasting outcomes.</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span>Step 1</span>
+          <h3>Meet women where they are</h3>
+          <p>Understand their education level, digital access, career goals, and support needs.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span>Step 2</span>
+          <h3>Train for today's work</h3>
+          <p>Build practical digital, communication, and professional skills through guided programs.</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span>Step 3</span>
+          <h3>Create pathways to income</h3>
+          <p>Connect women with internships, remote opportunities, mentors, and career preparation.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div>
+        <p class="eyebrow">Your role matters</p>
+        <h2>Help more women turn training into independence.</h2>
+      </div>
+      <button class="primary-btn open-join" type="button">Volunteer Today</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <a class="brand footer-brand" href="index.html">
+        <span class="brand-mark">SC</span>
+        <span>She Can Foundation</span>
+      </a>
+      <p>Empowering women through skills, learning, health, livelihood, and career opportunity.</p>
+    </div>
+    <div class="footer-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#programs">Programs</a>
+      <a href="about.html">Impact</a>
+    </div>
+  </footer>
+
+  <div class="modal" id="joinModal" aria-hidden="true">
+    <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="joinTitle">
+      <button class="modal-close" type="button" aria-label="Close form">&times;</button>
+      <p class="section-kicker">Join us</p>
+      <h2 id="joinTitle">Tell us how you want to help</h2>
+      <form class="join-form">
+        <label>
+          Full name
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </label>
+        <label>
+          I want to
+          <select name="role">
+            <option>Volunteer as a mentor</option>
+            <option>Join a learning program</option>
+            <option>Partner with the foundation</option>
+          </select>
+        </label>
+        <button class="primary-btn" type="submit">Send Interest</button>
+        <p class="form-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

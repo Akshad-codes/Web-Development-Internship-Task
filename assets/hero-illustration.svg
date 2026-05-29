@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1100" viewBox="0 0 1800 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Woman learning digital skills</title>
+  <desc id="desc">A warm illustration of a woman using a laptop in a learning environment.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e7fff5"/>
+      <stop offset="0.45" stop-color="#fff6df"/>
+      <stop offset="1" stop-color="#ffe4dc"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#124a3f"/>
+      <stop offset="1" stop-color="#59c8bb"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f302a"/>
+      <stop offset="1" stop-color="#176b5d"/>
+    </linearGradient>
+  </defs>
+  <rect width="1800" height="1100" fill="url(#wall)"/>
+  <path d="M0 822C292 742 493 786 746 850C1069 932 1300 840 1800 722V1100H0Z" fill="url(#floor)"/>
+  <circle cx="1450" cy="210" r="170" fill="#f7bd45" opacity="0.86"/>
+  <circle cx="260" cy="250" r="120" fill="#59c8bb" opacity="0.24"/>
+  <rect x="1050" y="235" width="430" height="285" rx="22" fill="#fffaf2" stroke="#124a3f" stroke-width="10"/>
+  <path d="M1102 450H1422" stroke="#59c8bb" stroke-width="18" stroke-linecap="round"/>
+  <path d="M1102 390H1310" stroke="#ff6f61" stroke-width="18" stroke-linecap="round"/>
+  <path d="M1102 330H1378" stroke="#f7bd45" stroke-width="18" stroke-linecap="round"/>
+  <rect x="1137" y="548" width="258" height="23" rx="11" fill="#124a3f"/>
+  <path d="M420 865C450 692 503 558 612 477C697 414 804 424 890 492C988 569 1025 717 1048 865Z" fill="#ff6f61"/>
+  <path d="M598 366C592 281 650 213 734 205C823 196 893 257 900 343C906 414 864 470 801 492C785 523 760 544 727 546C690 548 660 524 644 490C618 480 603 426 598 366Z" fill="#17211f"/>
+  <circle cx="742" cy="358" r="104" fill="#9b5c43"/>
+  <path d="M651 370C682 356 694 319 697 278C735 322 803 350 876 354C868 288 817 236 745 234C677 232 632 286 651 370Z" fill="#17211f"/>
+  <path d="M705 461H795V579H705Z" fill="#9b5c43"/>
+  <path d="M664 604C708 556 797 553 841 604L892 865H611Z" fill="#fffaf2"/>
+  <path d="M585 640C511 686 461 750 436 832" stroke="#9b5c43" stroke-width="54" stroke-linecap="round"/>
+  <path d="M866 642C940 694 985 757 1005 839" stroke="#9b5c43" stroke-width="54" stroke-linecap="round"/>
+  <rect x="498" y="704" width="482" height="300" rx="18" fill="#124a3f"/>
+  <rect x="544" y="744" width="390" height="205" rx="12" fill="url(#screen)"/>
+  <circle cx="739" cy="849" r="34" fill="#f7bd45"/>
+  <path d="M662 912C704 874 773 874 816 912" stroke="#59c8bb" stroke-width="18" stroke-linecap="round"/>
+  <rect x="453" y="1000" width="572" height="36" rx="18" fill="#0f2420"/>
+  <path d="M252 885C284 817 334 783 402 786C365 837 332 871 252 885Z" fill="#d7f0e5"/>
+  <path d="M1518 785C1468 711 1399 680 1312 695C1378 754 1430 786 1518 785Z" fill="#d7f0e5"/>
+  <path d="M1216 798C1266 733 1335 715 1410 736C1368 786 1310 816 1216 798Z" fill="#fffaf2"/>
+  <path d="M270 910C357 913 432 944 495 1002" stroke="#124a3f" stroke-width="14" stroke-linecap="round"/>
+  <path d="M1512 810C1429 834 1360 885 1305 963" stroke="#124a3f" stroke-width="14" stroke-linecap="round"/>
+</svg>
